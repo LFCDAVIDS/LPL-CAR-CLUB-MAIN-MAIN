@@ -166,14 +166,31 @@ input[type="email"]::placeholder
 
 /* Media queries */
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 600px) {
+    .box {
+        width: 50%;
+    }
 
     /* responsive css */
     #nav {
         height: 40px;
     }
 
-    
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .box {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 1px solid;
+        margin-bottom: 20px;
+    }
 
     #nav ul,
     #header {
