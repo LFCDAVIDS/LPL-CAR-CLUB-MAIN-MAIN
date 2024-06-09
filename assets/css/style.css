@@ -129,6 +129,7 @@ form {
     color: red;
 }
 
+
 input[type="email"] {
     width: 150px;
     padding: 10px;
@@ -187,5 +188,5 @@ input[type="email"]::placeholder
         /* Display img and text in header next to eachother on larger screens*/
         width: 50%;
     }
-    
+
 }
