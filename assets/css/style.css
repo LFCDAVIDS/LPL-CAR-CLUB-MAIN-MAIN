@@ -1,4 +1,4 @@
-/*Fonts */
+/* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
 
 /* Stylesheet */
@@ -13,7 +13,6 @@ h2 {
     color: red;
     padding: 10px;
     margin: 0;
-
 }
 
 h3 {
@@ -33,7 +32,6 @@ h1 a {
     text-decoration: none;
     color: red;
     cursor: pointer;
-
 }
 
 .text-center {
@@ -45,7 +43,6 @@ h1 a {
 }
 
 /* Struc CSS */
-
 body {
     padding: 0;
     margin: 0;
@@ -72,10 +69,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: black;
     padding: 10px 20px;
     list-style: none;
-    background-color: black;
 }
 
 .navbar .title {
@@ -84,11 +80,16 @@ body {
     margin-left: 0;
 }
 
+.navbar-menu {
+    display: flex;
+    gap: 15px;
+}
+
 .navbar .links {
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 2px;
+    gap: 15px;
     font-size: 1em;
 }
 
@@ -107,7 +108,6 @@ body {
     text-decoration: underline;
 }
 
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -116,7 +116,6 @@ ul {
     margin: 0;
     padding: 10px;
     line-height: 4;
-
 }
 
 p {
@@ -140,7 +139,6 @@ form {
     align-items: center;
 }
 
-
 input[type="email"] {
     width: 150px;
     padding: 10px;
@@ -158,7 +156,6 @@ input[type="Surname"] {
     padding: 10px;
     border: 1px solid #ccc;
 }
-
 
 .signup-container {
     position: relative;
@@ -185,8 +182,21 @@ input[type="Surname"] {
     color: darkgreen;
 }
 
-
 /* Media queries */
+@media screen and (max-width: 768px) {
+    .navbar-menu {
+        flex-direction: column;
+    }
+
+    .navbar .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar .links a {
+        margin: 10px 0;
+    }
+}
 
 @media screen and (min-width: 600px) {
     .box {
@@ -225,8 +235,7 @@ input[type="Surname"] {
     }
 
     #header div {
-        /* Display img and text in header next to eachother on larger screens*/
+        /* Display img and text in header next to each other on larger screens */
         width: 50%;
     }
-
 }
