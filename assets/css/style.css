@@ -1,7 +1,5 @@
-/* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
 
-/* Stylesheet */
 h1 {
     text-align: center;
     background-color: black;
@@ -42,7 +40,6 @@ h1 a {
     text-align: left;
 }
 
-/* Struc CSS */
 body {
     padding: 0;
     margin: 0;
@@ -182,7 +179,6 @@ input[type="Surname"] {
     color: darkgreen;
 }
 
-/* Media queries */
 /* Used Chat GPT to help with the code to change responsiveness on mobile screens */
 @media screen and (max-width: 768px) {
     .navbar-menu {
@@ -204,7 +200,6 @@ input[type="Surname"] {
         width: 50%;
     }
 
-    /* responsive css */
     #nav {
         height: 40px;
     }
@@ -236,7 +231,6 @@ input[type="Surname"] {
     }
 
     #header div {
-        /* Display img and text in header next to each other on larger screens */
         width: 50%;
     }
 }
