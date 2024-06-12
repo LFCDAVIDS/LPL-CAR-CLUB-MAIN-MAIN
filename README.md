@@ -33,7 +33,7 @@ Visitors of this website will find all the info they need to know about the loca
 **The contact section**
    + The contact section provides users with everyhting they need to know to contact the club icluding phone number email address and also the address of the club itself.
    + The contact section also includes social media icons which can be clicked to find the club on the respective social media platforms.
-![Contact_section_screenshot](assets/images/Contact_Section.png)
+![Contact_section_screenshot](README.md_images/Contact_Section.png)
 
 ## Testing
 * I have tested the page works on browsers: Chrome and Safari.
@@ -44,6 +44,7 @@ Visitors of this website will find all the info they need to know about the loca
 **Validator testing**
 * HTML
   + No errors returned when passing through the official W3C validator.
+  ![]
 * CSS
    + No errors returned when passing through the official W3C validator.
 
@@ -64,6 +65,8 @@ Visitors of this website will find all the info they need to know about the loca
 
    **Credits**
 + The code to make the social media links was taken from the Code Institute [Love Running](https://lfcdavids.github.io/Love-Running/) Project.
+
++ The 
 
 **Media** 
 + The image in the header was taken from [Pexels](https://www.pexels.com/)

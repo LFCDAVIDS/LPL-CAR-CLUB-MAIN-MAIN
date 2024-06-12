@@ -64,7 +64,7 @@ body {
 .top-margin-5 {
     margin-top: 5rem;
 }
-
+/* Used Chat GPT to help with the code to change responsiveness on mobile screens */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -183,6 +183,7 @@ input[type="Surname"] {
 }
 
 /* Media queries */
+/* Used Chat GPT to help with the code to change responsiveness on mobile screens */
 @media screen and (max-width: 768px) {
     .navbar-menu {
         flex-direction: column;
